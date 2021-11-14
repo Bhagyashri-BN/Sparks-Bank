@@ -7,10 +7,13 @@ TASK-1  :: Basic Banking System
 A simple dynamic web application used to perform transactions between multiple users
 
 Frontend  :: HTML, CSS, JAVASCRIPT
+
 Backend   :: PHP
+
 Database  :: MYSQL
 
 Database is having two tables :
+
 i. Customer
 ii. transaction
 
