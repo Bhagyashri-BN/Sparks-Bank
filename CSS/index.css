@@ -1,0 +1,139 @@
+body {
+    background-color: #f9f9fc;
+    width: auto;
+    height: auto;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.header {
+    margin-left: 14px;
+    color: #ff7838;
+    font-size: 61px;
+    font-variant: small-caps;
+}
+
+.img {
+    height: 29rem;
+    padding-left: 1rem;
+    margin-top: -49px;
+}
+
+.content {
+    margin-top: -388px;
+    margin-right: 76px;
+    margin-left: 700px;
+    font-size: 30px;
+}
+
+h5 {
+    margin-top: -51px;
+    background: -webkit-linear-gradient(#976147, #f75003);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button {
+    background-color: #100F11;
+    border-radius: 29px;
+    border-bottom-color: red;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #6743fa
+}
+
+.button:active {
+    background-color: #100F11;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.btnstyle {
+    padding-left: 0rem;
+    padding-top: -39.1px
+}
+
+.btnadj2 {
+    padding-left: 13rem;
+    margin-top: -2.3rem;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #f9f9fc;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #6743fa;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #6743fa;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
