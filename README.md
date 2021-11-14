@@ -16,4 +16,4 @@ ii. transaction
 
 Website : https://sparks-online-system.000webhostapp.com/ 
 
-Flow of Website:  Home Page > View Customers > Select & View one Customer > Select recipient > Enter Amount > Transfer Money > View Customers > View Transactions
+Flow of Website :  Home Page > View Customers > Select & View one Customer > Select recipient > Enter Amount > Transfer Money > View Customers > View Transactions
